@@ -15,4 +15,24 @@ private:
 	bool m_movingLeft = false;
 	bool m_movingUp = false;
 	bool m_movingDown = false;
+
+public:
+	Player(std::string texture, sf::Vector2f position);
+	~Player();
+
+	sf::Sprite getSprite();
+
+	void goLeft();
+	void stopLeft();
+
+	void goRight();
+	void stopRight();
+
+	void goUp();
+	void stopUp();
+
+	void goDown();
+	void stopDown();
+
+	void update(sf::Time t, sf::Vector2f windowSize);
 };
