@@ -1,0 +1,12 @@
+﻿  Source.cpp
+C:\Users\BatGirl\Documents\Code\C++\sfml-2d-4-direction-movement\SFML2D4DirectionMotion\Source.cpp(4,42): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\BatGirl\Documents\Code\C++\sfml-2d-4-direction-movement\SFML2D4DirectionMotion\Source.cpp(4,28): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  SFML2D4DirectionMotion.vcxproj -> C:\Users\BatGirl\Documents\Code\C++\sfml-2d-4-direction-movement\SFML2D4DirectionMotion\Debug\SFML2D4DirectionMotion.exe
